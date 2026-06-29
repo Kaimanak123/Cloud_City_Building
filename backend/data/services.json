@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Joinery",
+    "description": "Bespoke carpentry, fitted units, doors, staircases and general timber work for new builds and renovations alike."
+  },
+  {
+    "id": 2,
+    "name": "Plumbing",
+    "description": "Bathroom and kitchen installs, leak repairs, full repipes and general plumbing maintenance."
+  },
+  {
+    "id": 3,
+    "name": "Gas Engineering",
+    "description": "Boiler installation, servicing, repairs and gas safety checks, all carried out by Gas Safe registered engineers."
+  },
+  {
+    "id": 4,
+    "name": "Electrical",
+    "description": "Full and partial rewires, consumer unit upgrades, lighting and certified electrical installation work."
+  },
+  {
+    "id": 5,
+    "name": "Plastering",
+    "description": "Wall and ceiling skimming, rendering, dry lining and patch repairs to a smooth, paint-ready finish."
+  },
+  {
+    "id": 6,
+    "name": "Brick Laying",
+    "description": "Extension walls, garden walls, repointing and structural brickwork built to current building standards."
+  },
+  {
+    "id": 7,
+    "name": "Tiling",
+    "description": "Kitchen and bathroom tiling, floor tiling, and waterproofing for wet areas."
+  },
+  {
+    "id": 8,
+    "name": "All Other Trades",
+    "description": "Roofing, flooring, painting and decorating, and general building work — ask us what you need."
+  }
+]
