@@ -470,3 +470,71 @@ textarea { resize: vertical; min-height: 140px; }
 .cta-band p { color: rgba(247,245,240,0.85); max-width: 32em; margin: 0.8rem auto 1.8rem; }
 .cta-band .btn-primary { background: var(--paper); color: var(--rust); }
 .cta-band .btn-primary:hover { background: var(--ink); color: var(--paper); }
+
+/* ---------- Portfolio before/after cards ---------- */
+
+#projects-list {
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+.project-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.project-card:hover { border-color: var(--brass); transform: translateY(-3px); }
+
+.ba-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3px;
+  background: var(--ink);
+}
+
+.ba-panel {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4/3;
+}
+
+.ba-panel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.ba-panel:hover img { transform: scale(1.03); }
+
+.ba-label {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.65rem;
+  border-radius: 2px;
+}
+.ba-label-after {
+  background: var(--brass);
+  color: var(--ink);
+}
+
+.project-card-body {
+  padding: 1.6rem;
+}
+.project-card-body .eyebrow { margin-bottom: 0.5rem; }
+.project-card-body h3 { margin: 0.4rem 0 0.6rem; }
+.project-card-body p { font-size: 0.95rem; }
+
+@media (max-width: 600px) {
+  .ba-images { grid-template-columns: 1fr; }
+  .ba-panel { aspect-ratio: 16/9; }
+}
