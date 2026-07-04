@@ -3,18 +3,24 @@
     "id": 1,
     "title": "Kitchen Extension — Dennistoun",
     "category": "Residential",
-    "description": "Single-storey rear extension with full kitchen fit-out: brick laying, joinery, electrical and tiling."
+    "description": "Single-storey rear extension with full kitchen fit-out: brick laying, joinery, electrical and tiling.",
+    "beforeImage": "images/portfolio/placeholder-before.jpg",
+    "afterImage": "images/portfolio/placeholder-after.jpg"
   },
   {
     "id": 2,
     "title": "Bathroom Refurbishment — Shawlands",
     "category": "Residential",
-    "description": "Full bathroom strip-out and refit including new plumbing, tiling and plastering."
+    "description": "Full bathroom strip-out and refit including new plumbing, tiling and plastering.",
+    "beforeImage": "images/portfolio/placeholder-before.jpg",
+    "afterImage": "images/portfolio/placeholder-after.jpg"
   },
   {
     "id": 3,
     "title": "Office Fit-Out — Glasgow City Centre",
     "category": "Commercial",
-    "description": "Commercial refurbishment covering electrical, plastering and joinery for a small office space."
+    "description": "Commercial refurbishment covering electrical, plastering and joinery for a small office space.",
+    "beforeImage": "images/portfolio/placeholder-before.jpg",
+    "afterImage": "images/portfolio/placeholder-after.jpg"
   }
 ]
